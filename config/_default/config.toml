@@ -1,9 +1,9 @@
 enableEmoji = true
 enableRobotsTXT = true
-disqusShortname = "goldcoders"
+disqusShortname = "pitlords"
 languageCode = "en-us"
-title = "Goldcoders Corp."
-baseURL = "https://goldcoders.dev"
+title = "Pitlord Inc."
+baseURL = "https://pitlords.com"
 googleAnalytics = ""
 paginate = 9
 summaryLength = "10"
@@ -35,7 +35,7 @@ disable = true
 
 [author]
 homepage = "https://github.com/goldcoders"
-name = "Goldcoders"
+name = "Pitlord"
 avatar = "/images/avatar.svg"
 
 [build]

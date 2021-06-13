@@ -15,13 +15,13 @@ cover_photo:
   shade: ""
   font: steel
 form:
-  action: https://docs.google.com/forms/u/1/d/e/1FAIpQLSf88ng1DrsWRw5nMEgTXqLA-GBIktjphzQ_GWupVjufhyfTyg/formResponse?embedded=true
+  action: https://docs.google.com/forms/u/0/d/e/1FAIpQLSchlzTLnER4aSRYY2PPMSK0q9KCQSCCcUafqtCzxZS9BI6Z3w/formResponse
   method: POST
   button:
     text: Submit
   recaptcha:
     enable: true
-    siteKey: 6LeqJi0bAAAAAO8cei2lwefn28llXM3uwoA0Dqcc
+    siteKey: 6Lca5xMbAAAAAGyKY7DU9RW8LcKjMGj7MHPgkNdZ
   agreement:
     enable: true
     text: I have read and agreed to
@@ -31,7 +31,7 @@ form:
       - name: cookie policy
         link: "#cookie"
   fields:
-    - name: entry.1962674402
+    - name: entry.2005620554
       label: Name
       type: text
       value: name
@@ -41,7 +41,7 @@ form:
         title: Special Characters and Number Not Allowed.
         minLength: ""
       tag: input
-      placeholder: John Doe
+      placeholder: Juan Dela Cruz
     - name: emailAddress
       label: Email
       type: email
@@ -50,7 +50,7 @@ form:
         required: true
       tag: input
       placeholder: juandelacruz@gmail.com
-    - name: entry.1715356000
+    - name: entry.1166974658
       label: Contact No.
       type: text
       value: mobile
@@ -60,7 +60,7 @@ form:
         title: Must Start With +639XXXXXXXXXX or 09XXXXXXXXXX
       tag: input
       placeholder: "+63915123456789"
-    - name: entry.1318919415
+    - name: entry.839337160
       label: Message
       type: text
       value: message

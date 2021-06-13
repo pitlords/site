@@ -5,9 +5,8 @@ data: {}
 author:
   name: Goldcoders
   avatar: https://avatars.dicebear.com/api/avataaars/richkid.svg
-title: Custom Software and Application Development
-description: Let build your Next Big Thing App A Reality, We Help You Bring
-  Ideas to Reality.
+title: " Pitlords Live , #! Online Sabong, Games, Bets Platform Provider in The Philippines." 
+description: "Player Focus Platform, Win Big with Potbonus, Play More with Cashback and 3 Tier Referrals, Comeback Feature For Losing Streak Games." 
 date: 2021-06-04T22:40:12.245Z
 showcart: false
 sections:
@@ -19,20 +18,20 @@ sections:
       col: 2
       images: []
     subheader: ""
-    header: Online Casino App
+    header: We Love Players to Win
     featured:
       url: /images/Online Sabong.png
       alt: Feature Image
     template: templates/hero/app-with-screenshot.html
     type: hero_app_with_screenshot
-    tag: Live Betting Games
+    tag: And Play More Games
     video:
       id: ""
     bglower:
       color: gray
       shade: "800"
     description: |
-      > We Listen To The Players, The Operators , And Follow PAGCOR Guidelines.
+      > We Listen To The Players, The Operators , And Follow PAGCOR Guidelines And Build New Platform From Ground Up!
     bgupper:
       color: gray
       shade: "50"

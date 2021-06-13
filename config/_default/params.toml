@@ -1,10 +1,10 @@
 github_user = "goldcoders"
 favicon = "/images/logo.png"
 mainSections = ["blog", "products"]
-copyright = "Copyright © 2020, GOLDCODERS CORP™️., all rights reserved."
+copyright = "Copyright © 2021, Pitlord Inc️., all rights reserved."
 github_banner = true
-github_repo = "https://github.com/thrift-shop-site/theme"
-description = "The Most Affordable Ecommerce Site For Filipino Online Seller Startups"
+github_repo = "https://github.com/pitlords/site"
+description = "Official Repo of Pitlords Live"
 
 [gtm]
 enable = false
@@ -16,13 +16,13 @@ height = "14"
 
 [brand]
 enable = true
-name = "Goldcoders"
+name = "PITLORD"
 font = "steel"
 color = "brand"
 shade = ""
 
 [tag]
-name = "Dev"
+name = "INC"
 font = "steel"
 color = "white"
 shade = ""
