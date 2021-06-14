@@ -1,4 +1,4 @@
-<nav class="shadow bg-gradient-to-r from-primary-darker via-purple-600 to-pink-400">
+<nav class="shadow gradient fixed z-40 top-0 inset-x-0 opacity-90">
   <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
     <div class="flex justify-between h-16">
       <div class="flex px-2 lg:px-0">
@@ -7,14 +7,14 @@
           {{ with $.Site.Params.logo}}<img class="block mr-0 {{if eq $.Site.Params.brand.enable true}}md:mr-5{{end}} h-{{.height}} w-auto" src="{{.image}}" alt="{{$.Site.Params.brand.name}}">{{end -}}
           {{if $.Site.Params.brand.enable}}
           {{- if or (eq $.Site.Params.brand.font "aguafina") (eq $.Site.Params.brand.font "qwigley") }}
-          <h1 class="-mb-9 z-10 hidden md:block max-h-48 w-auto font-light text-6xl relative mr-5 md:mr-10
+          <h1 class="-mb-9 z-10 block max-h-48 w-auto font-light text-6xl relative mr-5 md:mr-10
           {{with $.Site.Params.brand.font}}font-{{.}}{{end}}
-          {{ with $.Site.Params.brand.color -}}text-{{.}}{{with $.Site.Params.tag.shade}}-{{.}}{{end}}{{end -}}
+          {{ with $.Site.Params.brand.color -}}text-{{.}}{{with $.Site.Params.brand.shade}}-{{.}}{{end}}{{end -}}
           ">
           {{else if or (eq $.Site.Params.brand.font "sans") (eq $.Site.Params.brand.font "steel")}}
-          <h1 class="hidden md:block max-h-48 w-auto font-extrabold text-5xl relative mr-5 md:mr-10 uppercase
+          <h1 class="block max-h-48 w-auto pl-2 font-extrabold text-5xl relative mr-5 md:mr-10 uppercase
           {{with $.Site.Params.brand.font}}font-{{.}}{{end}}
-          {{ with $.Site.Params.brand.color -}}text-{{.}}{{with $.Site.Params.tag.shade}}-{{.}}{{end}}{{end -}}
+          {{ with $.Site.Params.brand.color -}}text-{{.}}{{with $.Site.Params.brand.shade}}-{{.}}{{end}}{{end -}}
           ">
           {{- end -}}
               {{- $.Site.Params.brand.name -}}
@@ -27,8 +27,7 @@
               <span class="
               font-{{ $.Site.Params.tag.font}} font-hairline leading-10 absolute top-0 -mr-10 mt-2 text-base">{{$.Site.Params.tag.name}}</span>
               {{else if eq $.Site.Params.brand.font "sans"}}
-              <span class="font-hairline text-2xl
-              font-{{ $.Site.Params.tag.font}}
+              <span class="font-hairline
               {{ with $.Site.Params.tag.color -}}text-{{.}}{{with $.Site.Params.tag.shade}}-{{.}}{{end}}{{end -}}
               ">{{$.Site.Params.tag.name}}</span>
               {{else}}
@@ -50,9 +49,9 @@
           {{- if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }}
           border-b-4 
           text-navbar-active
-          border-brand
+          border-navbar-active
           hover:text-navbar-hover
-          hover:border-tag
+          hover:border-navbar-hover
           {{else}}
           border-b-4
           text-navbar-inactive
