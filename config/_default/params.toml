@@ -1,9 +1,9 @@
 github_user = "goldcoders"
-favicon = "/images/logo.png"
 mainSections = ["blog", "products"]
-copyright = "Copyright © 2021, Pitlord Inc️., all rights reserved."
+copyright = "Copyright © 2021, Pitlord Inc️. , Pitlords Live, all rights reserved."
 github_banner = true
 github_repo = "https://github.com/pitlords/site"
+favicon = "/images/logo.png"
 description = "Official Repo of Pitlords Live"
 
 [gtm]
@@ -16,15 +16,9 @@ height = "14"
 
 [brand]
 enable = true
-name = "PITLORD"
+name = "Pitlords"
 font = "steel"
 color = "brand"
-shade = ""
-
-[tag]
-name = "INC"
-font = "steel"
-color = "white"
 shade = ""
 
 [cover_photo]
@@ -39,3 +33,9 @@ enable = false
 [placeholder]
 cover_photo = "https://cdn.pixabay.com/photo/2015/03/26/09/40/business-suit-690048_960_720.jpg"
 post = "https://via.placeholder.com/760x450"
+
+[tag]
+name = "Live"
+font = "steel"
+color = "white"
+shade = ""
